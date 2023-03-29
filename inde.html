@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambit Fitness</title>
+</head>
+<link rel="stylesheet" href="https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: cursive;
+        color: wheat;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://wallpaperaccess.com/full/1244790.jpg');
+
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        display: inline-block;
+        /* border: 2px solid red; */
+        left: 50px;
+        top: 2px;
+        padding: 0px;
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert();
+    }
+
+    .left div {
+        line-height: 10px;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        /* border: 2px solid rgb(171, 230, 35); */
+        margin: 17px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid rgb(18, 115, 212); */
+        right: 32px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbbar li a.active {
+
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(108, 103, 103);
+    }
+
+    .container {
+        border: 2px solid rgb(252, 253, 252);
+        margin: 106px 80px;
+        padding: 75px;
+        border-radius: 28px;
+        width: 33%;
+    }
+
+    .sambit {
+        color: white;
+    }
+
+    .form-group input {
+        font-family: cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 23%;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/011/299/789/small/gym-and-fitness-logo-png.png"
+                alt="">
+            <div>Sambit Fitness</div>
+        </div>
+        <!-- left bars for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1 class="sambit">Join the best gym of Vizag now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name
+            ">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age
+            ">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender
+            ">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality
+            ">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
